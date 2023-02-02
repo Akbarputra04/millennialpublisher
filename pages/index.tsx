@@ -1,9 +1,11 @@
+import Header from "@/components/Header";
+import Footer from '@/components/Footer';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation, Autoplay } from "swiper";
 
 import 'swiper/css';
 import 'swiper/css/autoplay';
-import Header from "@/components/Header";
-import Footer from '@/components/Footer';
+import 'swiper/css/navigation';
 
 const data = [1, 2, 3, 4, 5, 6]
 
@@ -11,9 +13,9 @@ export default function Home() {
 
 	return (
 		<>
+			<Header/>
+			
 			<div className="bg-gradient-to-b from-green-50 to-green-100">
-				<Header/>
-
 				<section className="py-10 sm:py-16 lg:py-24">
 					<div className="px-4 mx-auto max-w-6xl sm:px-6 lg:px-8">
 						<div className="grid items-center grid-cols-1 gap-12 lg:grid-cols-2">
@@ -77,7 +79,8 @@ export default function Home() {
 				<div className="px-4 mx-auto max-w-8xl sm:px-6 lg:px-8">
 					<h2 className="text-3xl font-bold leading-tight text-center mb-12 lg:text-4xl">Gallery</h2>
 					<Swiper
-						spaceBetween={0}
+						modules={[Navigation, Autoplay]}
+						spaceBetween={-20}
 						breakpoints={{
 							640: {
 								slidesPerView: 1,
@@ -89,6 +92,7 @@ export default function Home() {
 						centeredSlides
 						loop
 						autoplay
+						navigation
 					>
 						{data.map(d => (
 							<SwiperSlide key={d}>
