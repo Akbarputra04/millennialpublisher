@@ -37,7 +37,7 @@ export default function Home() {
 			</div>
 
 			{/* articles */}
-			<section className="py-10 sm:py-16 lg:py-24">
+			<section id="articles" className="py-10 sm:py-16 lg:py-24">
 				<div className="px-4 mx-auto max-w-6xl sm:px-6 lg:px-8">
 					<div className="grid grid-cols-1 gap-12 lg:grid-cols-3">
 						<div className="lg:row-start-1 lg:row-end-3">
@@ -93,7 +93,7 @@ export default function Home() {
 						{data.map(d => (
 							<SwiperSlide key={d}>
 								{({isActive}) => (
-									<img src="https://cdn.rareblocks.xyz/collection/celebration/images/blog/2/blog-post-1.jpg" alt="slide item" className={`aspect-square object-cover rounded-lg origin-top ${!isActive ? 'scale-75' : ''}`} />
+									<img src="https://cdn.rareblocks.xyz/collection/celebration/images/blog/2/blog-post-1.jpg" alt="slide item" className={`aspect-square object-cover rounded-lg duration-300 ease-in-out origin-top ${!isActive ? 'scale-75' : ''}`} />
 								)}
 							</SwiperSlide>
 						))}

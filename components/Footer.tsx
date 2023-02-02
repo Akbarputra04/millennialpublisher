@@ -1,5 +1,3 @@
-import Link from "next/link"
-
 export default function Footer() {
 	return (
 		<section className="py-10 bg-gray-200 sm:pt-16 lg:pt-24">

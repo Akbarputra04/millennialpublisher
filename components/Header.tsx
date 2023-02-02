@@ -1,7 +1,9 @@
 import Link from "next/link"
+import { useRouter } from "next/router"
 import { useState } from "react"
 
 export default function Header() {
+	const router = useRouter()
 
 	const [menuShow, setMenuShow] = useState(false)
 
@@ -14,9 +16,9 @@ export default function Header() {
 			<div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
 				<div className="flex items-center justify-between h-16 lg:h-20">
 					<div className="flex-shrink-0">
-						<a href="#" title="" className="flex">
+						<Link href="/" className="flex">
 							<img className="w-auto h-8" src="https://cdn.rareblocks.xyz/collection/celebration/images/hero/2/logo.svg" alt="" />
-						</a>
+						</Link>
 					</div>
 
 					<button type="button" className="inline-flex p-1 text-black transition-all duration-200 border border-black lg:hidden focus:bg-gray-100 hover:bg-gray-100" onClick={toggleMenu}>
@@ -36,7 +38,7 @@ export default function Header() {
 
 						<Link href="/books" className="text-base font-semibold text-black transition-all duration-200 hover:opacity-80">Books</Link>
 
-						<a href="#" title="" className="text-base font-semibold text-black transition-all duration-200 hover:opacity-80"> Articles </a>
+						<a href={router.pathname === '/' ? '#articles' : '/#articles'} title="" className="text-base font-semibold text-black transition-all duration-200 hover:opacity-80"> Articles </a>
 
 						<a href="#" title="" className="text-base font-semibold text-black transition-all duration-200 hover:opacity-80"> About </a>
 					</div>
@@ -49,7 +51,7 @@ export default function Header() {
 
 						<Link href="/books" className="py-2 font-medium transition-all duration-200 focus:opacity-80">Books</Link>
 
-						<a href="#" title="" className="py-2 font-medium transition-all duration-200 focus:opacity-80"> Articles </a>
+						<a href={router.pathname === '/' ? '#articles' : '/#articles'} title="" className="py-2 font-medium transition-all duration-200 focus:opacity-80"> Articles </a>
 
 						<a href="#" title="" className="py-2 font-medium transition-all duration-200 focus:opacity-80"> About </a>
 					</nav>
