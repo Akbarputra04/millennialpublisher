@@ -1,8 +1,6 @@
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 
-const data = [1, 2, 3]
-
 export default function ArticleDetail() {
 
     return (

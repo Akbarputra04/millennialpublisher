@@ -6,6 +6,7 @@ import { Navigation, Autoplay } from "swiper";
 import 'swiper/css';
 import 'swiper/css/autoplay';
 import 'swiper/css/navigation';
+import Link from "next/link";
 
 const data = [1, 2, 3, 4, 5, 6]
 
@@ -43,33 +44,36 @@ export default function Home() {
 				<div className="px-4 mx-auto max-w-6xl sm:px-6 lg:px-8">
 					<div className="grid grid-cols-1 gap-12 lg:grid-cols-3">
 						<div className="lg:row-start-1 lg:row-end-3">
-							<a href="#" title="" className="block aspect-square">
+							<Link href="/article-detail" title="" className="block aspect-square">
 								<img className="object-cover w-full h-full rounded-md" src="https://cdn.rareblocks.xyz/collection/celebration/images/blog/2/blog-post-1.jpg" alt="" />
-							</a>
+							</Link>
 							<p className="mt-5 text-2xl font-semibold">
-								<a href="#" title="" className="text-black">Lorem, ipsum.</a>
+								<Link href="/article-detail" title="" className="text-black">Lorem, ipsum.</Link>
 							</p>
 							<p className="mt-4 text-base text-gray-600">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
 						</div>
 						<h2 className="lg:row-start-1 order-first lg:order-none text-3xl font-bold leading-tight text-center lg:text-4xl">Articles</h2>
 						<div className="lg:row-start-2 lg:row-end-3">
-							<a href="#" title="" className="block aspect-square">
+							<Link href="/article-detail" title="" className="block aspect-square">
 								<img className="object-cover w-full h-full rounded-md" src="https://cdn.rareblocks.xyz/collection/celebration/images/blog/2/blog-post-1.jpg" alt="" />
-							</a>
+							</Link>
 							<p className="mt-5 text-2xl font-semibold">
-								<a href="#" title="" className="text-black">Lorem, ipsum.</a>
+								<Link href="/article-detail" title="" className="text-black">Lorem, ipsum.</Link>
 							</p>
 							<p className="mt-4 text-base text-gray-600">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
 						</div>
 						<div className="lg:row-start-1 lg:row-end-3">
-							<a href="#" title="" className="block aspect-square">
+							<Link href="/article-detail" title="" className="block aspect-square">
 								<img className="object-cover w-full h-full rounded-md" src="https://cdn.rareblocks.xyz/collection/celebration/images/blog/2/blog-post-1.jpg" alt="" />
-							</a>
+							</Link>
 							<p className="mt-5 text-2xl font-semibold">
-								<a href="#" title="" className="text-black">Lorem, ipsum.</a>
+								<Link href="/article-detail" title="" className="text-black">Lorem, ipsum.</Link>
 							</p>
 							<p className="mt-4 text-base text-gray-600">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
 						</div>
+					</div>
+					<div className="text-center mt-10">
+						<Link href="/articles" title="" className="inline-flex items-center justify-center px-10 py-4 text-base font-semibold text-white rounded-full transition-all duration-200 bg-primary hover:bg-primary-dark focus:bg-primary-dark" role="button">More articles</Link>
 					</div>
 				</div>
 			</section>
