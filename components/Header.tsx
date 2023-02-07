@@ -17,7 +17,8 @@ export default function Header() {
 				<div className="flex items-center justify-between h-16 lg:h-20">
 					<div className="flex-shrink-0">
 						<Link href="/" className="flex">
-							<img className="w-auto h-8" src="https://cdn.rareblocks.xyz/collection/celebration/images/hero/2/logo.svg" alt="" />
+							{/* <img className="w-auto h-8" src="https://cdn.rareblocks.xyz/collection/celebration/images/hero/2/logo.svg" alt="" /> */}
+							<h2 className="text-xl lg:text-2xl font-bold text-black">Millenium Publisher</h2>
 						</Link>
 					</div>
 
