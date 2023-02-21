@@ -1,10 +1,7 @@
 import Link from "next/link"
-import { useRouter } from "next/router"
 import { useState } from "react"
 
 export default function Header() {
-	const router = useRouter()
-
 	const [menuShow, setMenuShow] = useState(false)
 
 	const toggleMenu = () => {
@@ -39,7 +36,7 @@ export default function Header() {
 
 						<Link href="/books" className="text-base font-semibold text-black transition-all duration-200 hover:opacity-80">Books</Link>
 
-						<a href={router.pathname === '/' ? '#articles' : '/articles'} title="" className="text-base font-semibold text-black transition-all duration-200 hover:opacity-80"> Articles </a>
+						<a href="/articles" title="" className="text-base font-semibold text-black transition-all duration-200 hover:opacity-80"> Articles </a>
 
 						<Link href="/about" className="text-base font-semibold text-black transition-all duration-200 hover:opacity-80">About</Link>
 					</div>
@@ -52,7 +49,7 @@ export default function Header() {
 
 						<Link href="/books" className="w-full py-2 font-medium transition-all duration-200 focus:opacity-80">Books</Link>
 
-						<a href={router.pathname === '/' ? '#articles' : '/articles'} title="" className="w-full py-2 font-medium transition-all duration-200 focus:opacity-80"> Articles </a>
+						<a href="/articles" title="" className="w-full py-2 font-medium transition-all duration-200 focus:opacity-80"> Articles </a>
 
 						<Link href="/about" className="w-full py-2 font-medium transition-all duration-200 focus:opacity-80">About</Link>
 					</nav>
