@@ -5,7 +5,7 @@ export default function Footer() {
 		<section className="py-10 bg-gray-200 sm:pt-16 lg:pt-24">
 			<div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-6xl">
 				<div className="grid grid-cols-2 md:col-span-3 lg:grid-cols-6 gap-y-16 gap-x-12">
-					<div className="col-span-2 flex flex-col justify-between items-start md:col-span-3 lg:col-span-2 lg:pr-8">
+					<div className="col-span-2 flex flex-col gap-3 justify-between items-start md:col-span-3 lg:col-span-2 lg:pr-8">
 						{/* <img className="w-auto h-9" src="https://cdn.rareblocks.xyz/collection/celebration/images/logo.svg" alt="" /> */}
 						<h2 className="text-xl lg:text-2xl font-bold text-black">Millennium Publisher</h2>
 
@@ -52,7 +52,17 @@ export default function Footer() {
 					</div>
 				</div>
 
-				<hr className="mt-16 mb-10 border-gray-200" />
+				<div className="flex">
+					<p className="mt-10 font-medium text-base leading-relaxed">
+						Millennium Publisher<br/>
+						Jl Kemang timur XVIII/ no 5<br/>
+						Jakarta 12730<br/>
+						Telepon : 021 719 5587<br/>
+						Email : dyatamamilenia@yahoo.com
+					</p>
+				</div>
+
+				<hr className="my-10 border-gray-200" />
 
 				<p className="text-sm text-center text-gray-600">© Copyright 2023, All Rights Reserved by millennium publisher</p>
 			</div>
