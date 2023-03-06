@@ -55,7 +55,7 @@ export default function Footer() {
 				<div className="flex">
 					<p className="mt-10 font-medium text-base leading-relaxed">
 						Millennium Publisher<br/>
-						Jl Kemang timur XVIII/ no 5<br/>
+						Jl Kemang Timur XVIII/ no 5<br/>
 						Jakarta 12730<br/>
 						Telepon : 021 719 5587<br/>
 						Email : dyatamamilenia@yahoo.com
