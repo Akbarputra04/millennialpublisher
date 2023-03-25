@@ -19,7 +19,7 @@ export default function Home() {
 								Merajut literasi sumbangsih untuk negeri
 								</h1>
 
-								<p className="mt-8 text-base sm:text-xl">Millennium Publisher sejak 1999 turut berkontribusi dalam industri penerbitan buku, menghadirkan sajian literasi, turut membangun wawasan dan memperkaya khasanah perspektif kognitif untuk negeri</p>
+								<p className="mt-8 text-base sm:text-xl">Dyatama Milenia sejak 1999 turut berkontribusi dalam industri penerbitan buku, menghadirkan sajian literasi, turut membangun wawasan dan memperkaya khasanah perspektif kognitif untuk negeri</p>
 
 								<div className="mt-10 sm:flex sm:items-center sm:space-x-8">
 									{/* <a href="#" title="" className="inline-flex items-center justify-center px-10 py-4 text-base font-semibold text-white rounded-full transition-all duration-200 bg-primary hover:bg-primary-dark focus:bg-primary-dark" role="button"> Start exploring </a> */}

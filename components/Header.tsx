@@ -15,7 +15,7 @@ export default function Header() {
 					<div className="flex-shrink-0">
 						<Link href="/" className="flex">
 							{/* <img className="w-auto h-8" src="https://cdn.rareblocks.xyz/collection/celebration/images/hero/2/logo.svg" alt="" /> */}
-							<h2 className="text-xl lg:text-2xl font-bold text-black">Millennium Publisher</h2>
+							<h2 className="text-xl lg:text-2xl font-bold text-black">Dyatama Milenia</h2>
 						</Link>
 					</div>
 

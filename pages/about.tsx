@@ -13,7 +13,7 @@ export default function About() {
                     <div className="grid items-center grid-cols-1 md:grid-cols-2">
                         <div className="mb-5">
                             <h2 className="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">About Us</h2>
-                            <p className="max-w-lg mt-3 text-xl leading-relaxed text-gray-600 md:mt-8">Millennium Publisher sejak 1999 turut berkotribusi dalam industri penerbitan buku,
+                            <p className="max-w-lg mt-3 text-xl leading-relaxed text-gray-600 md:mt-8">Dyatama Milenia sejak 1999 turut berkotribusi dalam industri penerbitan buku,
                             menghadirkan sajian literasi, turut membangun wawasan dan memperkaya khasanah perspektif
                             kognitif untuk negeri</p>
 
@@ -33,7 +33,7 @@ export default function About() {
                             </ul>
                             </p>
 
-                            <p className="max-w-lg mt-3 text-xl leading-relaxed text-gray-600 md:mt-8">Penerbitan Millennium Publisher mempunyai tugas merencanakan, memperoleh, mengemas,
+                            <p className="max-w-lg mt-3 text-xl leading-relaxed text-gray-600 md:mt-8">Penerbitan Dyatama Milenia mempunyai tugas merencanakan, memperoleh, mengemas,
                             dan menyebarluaskan informasi ilmiah kepada masyarakat.</p>
                         </div>
 

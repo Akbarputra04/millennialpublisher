@@ -18,8 +18,8 @@ export default function Books() {
                 <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
                     <div className="flex items-end justify-between">
                         <div className="flex-1 text-center lg:text-left">
-                            <h2 className="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">Buku-buku terbitan Millennium Publisher</h2>
-                            <p className="max-w-4xl mx-auto mt-4 text-base leading-relaxed text-gray-600 lg:mx-0">Beragam produk terbitan Millennium Publisher dari non fiksi hingga fiksi, dari biografi, sejarah, kuliner, hingga jurnal akademis telah kami persembahkan kepada khalayak pecinta literasi Indonesia.</p>
+                            <h2 className="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">Buku-buku terbitan Dyatama Milenia</h2>
+                            <p className="max-w-4xl mx-auto mt-4 text-base leading-relaxed text-gray-600 lg:mx-0">Beragam produk terbitan Dyatama Milenia dari non fiksi hingga fiksi, dari biografi, sejarah, kuliner, hingga jurnal akademis telah kami persembahkan kepada khalayak pecinta literasi Indonesia.</p>
                         </div>
 
                         {/* <div className="hidden lg:flex lg:items-center lg:space-x-3">

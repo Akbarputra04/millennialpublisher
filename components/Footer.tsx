@@ -7,9 +7,9 @@ export default function Footer() {
 				<div className="grid grid-cols-2 md:col-span-3 lg:grid-cols-6 gap-y-16 gap-x-12">
 					<div className="col-span-2 flex flex-col gap-3 justify-between items-start md:col-span-3 lg:col-span-2 lg:pr-8">
 						{/* <img className="w-auto h-9" src="https://cdn.rareblocks.xyz/collection/celebration/images/logo.svg" alt="" /> */}
-						<h2 className="text-xl lg:text-2xl font-bold text-black">Millennium Publisher</h2>
+						<h2 className="text-xl lg:text-2xl font-bold text-black">Dyatama Milenia</h2>
 
-						<p className="text-base leading-relaxed text-gray-600">Millennium Publisher dibawah PT Dyatama Milenia, adalah penerbit dengan komitmen tinggi untuk berkontribusi memajukan dunia literasi di Indonesia dengan menerbitkan buku-buku berkualitas.<br/>Tidak sekadar menerbitkan, kami juga sahabat Anda membaca buku</p>
+						<p className="text-base leading-relaxed text-gray-600">Dyatama Milenia dibawah PT Dyatama Milenia, adalah penerbit dengan komitmen tinggi untuk berkontribusi memajukan dunia literasi di Indonesia dengan menerbitkan buku-buku berkualitas.<br/>Tidak sekadar menerbitkan, kami juga sahabat Anda membaca buku</p>
 
 					</div>
 
@@ -54,7 +54,7 @@ export default function Footer() {
 
 				<div className="flex">
 					<p className="mt-10 font-medium text-base leading-relaxed">
-						Millennium Publisher<br/>
+						Dyatama Milenia<br/>
 						Jl Kemang Timur XVIII/ no 5<br/>
 						Jakarta 12730<br/>
 						Telepon : 021 719 5587<br/>
@@ -64,7 +64,7 @@ export default function Footer() {
 
 				<hr className="my-10 border-gray-200" />
 
-				<p className="text-sm text-center text-gray-600">© Copyright 2023, All Rights Reserved by millennium publisher</p>
+				<p className="text-sm text-center text-gray-600">© Copyright 2023, All Rights Reserved by Dyatama Milenia</p>
 			</div>
 		</section>
 	)
