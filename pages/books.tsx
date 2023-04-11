@@ -2,6 +2,7 @@ import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import useSWR from 'swr';
 import { Book } from "./api/books";
+import Featured from "@/components/Featured";
 
 const fetcher = (url: string) => fetch(url).then((res) => res.json());
 
@@ -35,6 +36,10 @@ export default function Books() {
                                 </svg>
                             </button>
                         </div> */}
+                    </div>
+                    
+                    <div className="mt-8">
+                        <Featured/>
                     </div>
 
                     <div className="grid max-w-md grid-cols-2 gap-3 lg:gap-6 mx-auto mt-8 lg:mt-16 lg:grid-cols-4 lg:max-w-full">

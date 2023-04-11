@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Header from "@/components/Header";
 import Footer from '@/components/Footer';
+import Featured from "@/components/Featured";
 
 const data = [1, 2, 3, 4, 5, 6]
 
@@ -72,6 +73,10 @@ export default function Home() {
 						<Link href="/articles" title="" className="inline-flex items-center justify-center px-10 py-4 text-base font-semibold text-white rounded-full transition-all duration-200 bg-primary hover:bg-primary-dark focus:bg-primary-dark" role="button">More articles</Link>
 					</div> */}
 				</div>
+			</section>
+			
+			<section className="py-10 sm:py-16 lg:py-24 px-4">
+				<Featured/>
 			</section>
 
 			{/* banner */}
